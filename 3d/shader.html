@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/mainstyle.css">
+</head>
+    <body><h1><a href="../index.html">DESIGNCORE</a></h1>
+    
+    <span class="nav" id="makers"><a href="makers.html">THE MAKERS</a></span>
+    
+    <span class="nav" id="resources"><a href="resources.html">RESOURCES</a></span>
+    
+    <div id="main-container">
+        <h3>3D DESIGN</h3>
+        <h2>Materials</h2>
+        <p>Materials are a collection of shaders. A shader defines how 3D geometry is seen by the computer.</p>
+        <p class="learn"><img src="../assets/book.png" id="book"/>Learn More</p>
+    </div>
+    <!--
+    <div id="interaction-container">
+        <img class="sequencer interactions" src="../3d/js/image-sequence/images/0.png">
+    </div>
+    -->
+    <div id="images">
+      <img class="sequencer" src="../3d/js/image-sequence/images/0.png">
+    </div>
+    
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../3d/js/image-sequence/jquery-sequencer.min.js"></script>
+    <script>
+        console.log("hi");
+      $("div#images").sequencer({
+        count: 90,
+        path: "../3d/js/image-sequence/images",
+        ext: "png"
+      }, function() {
+          console.log("hello");
+      });
+    </script>
+</body>
+</html>
