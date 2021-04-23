@@ -1,0 +1,24 @@
+#blue, #pink {
+    height: 740px;
+    position: absolute;
+}
+
+#pink {
+    z-index: 5;
+}
+
+#blue {
+    z-index: 6;
+}
+
+.clip-svg {
+  /*clip-path: url(#myClip);*/
+    /*clip-path: polygon(61% 29%, 26% 54%, 71% 73%);*/
+    /*polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)*/
+} 
+
+#canvas {
+    z-index: 8;
+    /*background-color: green;*/
+    position: absolute;
+}
