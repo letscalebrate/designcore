@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@700&display=swap');
+
+#interaction-container {
+    width: 1000px;
+}
+
+#top-checks {
+    text-align: center;
+    margin-left: 220px;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.each-check {
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#back-pick {
+    margin-left: 140px;
+}
+#text-pick {
+    margin-right: 150px;
+}
+
+.pickers {
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px; 
+    margin-bottom: 50px;
+}
+
+.pickers img {
+    float: left;
+    padding-right: 20px;
+}
+
+.pickers p {
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    font-size: 34px;
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    float: left;
+    margin-top: -10px;
+}
+
+#back-color, #text-color {
+    width: 50px;
+    height: 50px;
+    float: right;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+#quote {
+    font-size: 48px;
+    color: #000000;
+    font-family: 'Gayathri', sans-serif;
+    float: left;
+    width: 850px;
+}
+
+#quote-img {
+    float: left;
+    margin-right: 20px;
+}
+
+#quote-mark {
+    font-size: 250px;
+    float: left;
+    margin-right: 50px;
+    margin-top: -40px;
+}

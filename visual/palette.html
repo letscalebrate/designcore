@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../css/mainstyle.css">
     <link rel="stylesheet" href="../css/palettestyle.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 </head>
     <body><h1><a href="../index.html">DESIGNCORE</a></h1>
     
@@ -13,14 +14,14 @@
         
     <div id="interaction-container">
       <div class="palette">
-        <div class="color"></div>
-        <div class="color"></div>
-        <div class="color"></div>
-        <div class="color"></div>
-        <div class="color"></div>
+        <div class="color" id="col1"><p id="p1">#ECECEC</p></div>
+        <div class="color" id="col2"><p id="p2">#ECECEC</p></div>
+        <div class="color" id="col3"><p id="p3">#ECECEC</p></div>
+        <div class="color" id="col4"><p id="p4">#ECECEC</p></div>
+        <div class="color" id="col5"><p id="p5">#ECECEC</p></div>
       </div>
         <div id="opts">
-            <p><input type="radio" id="random" name="colors" value="random">
+            <p><input type="radio" id="random" name="colors" value="random" checked="checked">
             <label for="random">Random</label></p>
             <p><input type="radio" id="analogous" name="colors" value="analogous">
             <label for="analogous">Analogous</label></p>
@@ -46,7 +47,8 @@
         <p>Check out the resources below to learn how to apply fundamental masking techniques in Adobe After Effects, Photoshop, and Illustrator. </p>
         </div>
         
-        
+        <script src='../visual/js/tinycolor.js'></script>
         <script src="../visual/js/palette.js"></script>
+        
 </body>
 </html>

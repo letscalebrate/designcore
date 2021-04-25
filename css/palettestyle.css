@@ -70,6 +70,13 @@ button {
   margin-left: 30px;
 }
 
+.palette .color p {
+    text-align: center;
+    padding-top: 280px;
+    color: #737373;
+    font-size: 16px;
+}
+
 /* radio buttons */
 
 #opts {
