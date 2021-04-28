@@ -15,7 +15,7 @@ var canvas = document.getElementById('canvas'),
         drag = false,
         mouseX,
         mouseY,
-        closeEnough = 5,
+        closeEnough = 7,
         dragTL = dragBL = dragTR = dragBR = false;
 
     function init() {
@@ -24,10 +24,6 @@ var canvas = document.getElementById('canvas'),
         canvas.addEventListener('mousemove', mouseMove, false);
 
         rect = {
-            /*startX: 100,
-            startY: 200,
-            w: 300,
-            h: 200*/
             startX: 160,
             startY: 50,
             w: 425, 
@@ -154,4 +150,4 @@ function drawHandles() {
     drawCircle(rect.startX, rect.startY + rect.h, closeEnough);
 }
 
-    init();
+init();

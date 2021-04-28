@@ -129,24 +129,6 @@ p {
     color: #505050;
 }
 
-/*
-img.hoverImages {
-  margin:10px;
-  padding: 3px;
-  outline:2px solid #DDD;
-  border:#a1a1a1;
-  float:left;
-	-webkit-transition: margin 0.5s ease-out;
-    -moz-transition: margin 0.5s ease-out;
-    -o-transition: margin 0.5s ease-out;
-}
-
-img.hoverImages:hover {
-	cursor:pointer;
-    margin-top: 5px;
-}
-*/
-
 #main-container {
     width: 700px;
     height: auto;
@@ -179,4 +161,6 @@ img.hoverImages:hover {
     height: 740px;
     width: 740px;
 }
+
+
 

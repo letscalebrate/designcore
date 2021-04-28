@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/mainstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body id="accessibility-body">
     <h1>DESIGNCORE</h1>
@@ -13,24 +14,41 @@
     
     <div id="elements-container">
         <!--<img src="assets/assets-mock.png" id="assets"/>-->
-        <a href="ux/visual-style.html"><img src="assets/ux/visual-style.png" class="hoverImages"/></a>
-        <a href="3d/mograph.html"><img src="assets/3d/mograph-thumb.gif" class="hoverImages"/></a>
+        <a href="ux/visual-style.html">
+        <img src="assets/ux/visual-style-static.png" class="hoverImages" data-static="assets/ux/visual-style-static.png" data-anim="assets/ux/visual-style-thumb.gif"/>
+        </a>
+        <img src="assets/visual/color.png" class="hoverImages"/>
+        <img src="assets/motion/easing-static.png" class="hoverImages" data-static="assets/motion/easing-static.png" data-anim="assets/motion/easing-thumb.gif"/>
+        <a href="3d/mograph.html">
+        <img src="assets/3d/mograph-static.png" class="hoverImages" data-static="assets/3d/mograph-static.png" data-anim="assets/3d/mograph-thumb.gif"/>
+        </a>
         <img src="assets/visual/stack.png" class="hoverImages"/>
-        <img src="assets/motion/easing-thumb.gif" class="hoverImages"/>
+        <img src="assets/motion/alignment-static.png" class="hoverImages" data-static="assets/motion/alignment-static.png" data-anim="assets/motion/alignment-thumb.gif"/>
         <img src="assets/visual/bezier.png" class="hoverImages"/>
-        <a href="motion/masking.html"><img src="assets/motion/masking-thumb.gif" class="hoverImages"/></a>
-        <img src="assets/ux/responsive-design.png" class="hoverImages"/>
-        <a href="3d/displacement.html"><img src="assets/3d/displacement-thumb.gif" class="hoverImages"/></a>
-        <!--<video width="320" height="240" controls autoplay><source src="assets/3d/displacement-thumb.mp4" type="video/mp4"></video>-->
-        <img src="assets/visual/bezier.png" class="hoverImages"/>
-        <a href="visual/accessibility.html"><img src="assets/visual/color.png" class="hoverImages"/></a>
-        <a href="3d/shader.html"><img src="assets/3d/materials-thumb.gif" class="hoverImages"/></a>
-        <img src="assets/motion/squash-stretch.png" class="hoverImages"/>
-        <a href="visual/palette.html"><img src="assets/visual/palette.gif" class="hoverImages"/></a>
-        <a href="ux/user-flows.html"><img src="assets/ux/user-flows.png" class="hoverImages"/></a>
-        <img src="assets/motion/alignment.gif" class="hoverImages"/>
+        <a href="3d/displacement.html">
+        <img src="assets/3d/displacement-static.png" class="hoverImages" data-static="assets/3d/displacement-static.png" data-anim="assets/3d/displacement-thumb.gif"/>
+        </a>
+        <a href="ux/responsive-design.html">
+        <img src="assets/ux/responsive-static.png" class="hoverImages" data-static="assets/ux/responsive-static.png" data-anim="assets/ux/responsive-thumb.gif"/>
+        </a>
+        <a href="visual/accessibility.html">
+        <img src="assets/visual/accessibility-te.jpg" class="hoverImages" data-static="assets/visual/accessibility-te.jpg" data-anim="assets/visual/accessibility-thumb.gif"/>
+        </a>
+        <a href="3d/textures.html">
+        <img src="assets/3d/texture-static.png" class="hoverImages" data-static="assets/3d/texture-static.png" data-anim="assets/3d/texture-thumb.gif"/>
+        </a>
+        <a href="motion/masking.html">
+        <img src="assets/motion/masking-static.png" class="hoverImages" data-static="assets/motion/masking-static.png" data-anim="assets/motion/masking-thumb.gif"/>
+        </a>
+        <a href="ux/user-flows.html">
+        <img src="assets/ux/user-flows-static.png" class="hoverImages" data-static="assets/ux/user-flows-static.png" data-anim="assets/ux/user-flows-thumb.gif"/>
+        </a>
+        <a href="visual/palette.html">
+        <img src="assets/visual/palette-static.png" class="hoverImages" data-static="assets/visual/palette-static.png" data-anim="assets/visual/palette-thumb.gif"/>
+        </a>
+        <img src="assets/visual/stack.png" class="hoverImages"/>
+        
     </div>
-    
-    
+    <script src="hover.js"></script>
 </body>
 </html>

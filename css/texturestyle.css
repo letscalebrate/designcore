@@ -1,0 +1,33 @@
+#main-model {
+    width: 650px;
+    height: 650px;
+    float: left;
+}
+
+#interaction-container {
+    width: 1250px;
+}
+
+.texture-choices {
+    float: left;
+    width: 175px;
+    height: 200px;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    margin: 10px;
+    border: 4px solid #ffffff;
+}
+
+.texture-choices img {
+    width: 160px;
+}
+
+.texture-choices p {
+    margin-top: -10px;
+    text-align: center;
+}
+
+.texture-choices:hover {
+    background-color: #E5E5E5;
+}
+
