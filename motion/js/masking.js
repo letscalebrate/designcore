@@ -24,10 +24,10 @@ var canvas = document.getElementById('canvas'),
         canvas.addEventListener('mousemove', mouseMove, false);
 
         rect = {
-            startX: 160,
-            startY: 50,
+            startX: 110,
+            startY: 40,
             w: 425, 
-            h: 650
+            h: 575
         }
     }
 
@@ -88,8 +88,8 @@ var canvas = document.getElementById('canvas'),
             rect.h += rect.startY - mouseY;
             rect.startX = mouseX;
             rect.startY = mouseY;
-            let divX = Math.floor((mouseX / 740) * 100);
-            let divY = Math.floor((mouseY / 740) * 100);
+            let divX = Math.floor((mouseX / 650) * 100);
+            let divY = Math.floor((mouseY / 650) * 100);
             per1 = divX;
             per2 = divY;
             per4 = divY;
@@ -98,8 +98,8 @@ var canvas = document.getElementById('canvas'),
             rect.w = Math.abs(rect.startX - mouseX);
             rect.h += rect.startY - mouseY;
             rect.startY = mouseY;
-            let divX = Math.floor((mouseX / 740) * 100);
-            let divY = Math.floor((mouseY / 740) * 100);
+            let divX = Math.floor((mouseX / 650) * 100);
+            let divY = Math.floor((mouseY / 650) * 100);
             per3 = divX;
             per4 = divY;
             per5 = divX;
@@ -108,8 +108,8 @@ var canvas = document.getElementById('canvas'),
             rect.w += rect.startX - mouseX;
             rect.h = Math.abs(rect.startY - mouseY);
             rect.startX = mouseX;
-            let divX = Math.floor((mouseX / 740) * 100);
-            let divY = Math.floor((mouseY / 740) * 100);
+            let divX = Math.floor((mouseX / 650) * 100);
+            let divY = Math.floor((mouseY / 650) * 100);
             per7 = divX;
             per8 = divY;
             per6 = divY;
@@ -117,8 +117,8 @@ var canvas = document.getElementById('canvas'),
         } else if (dragBR) {
             rect.w = Math.abs(rect.startX - mouseX);
             rect.h = Math.abs(rect.startY - mouseY);
-            let divX = Math.floor((mouseX / 740) * 100);
-            let divY = Math.floor((mouseY / 740) * 100);
+            let divX = Math.floor((mouseX / 650) * 100);
+            let divY = Math.floor((mouseY / 650) * 100);
             per5 = divX;
             per6 = divY;
             per8 = divY;

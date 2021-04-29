@@ -1,55 +1,54 @@
-#displacement, #mograph {
+#displacement,
+#mograph {
     height: 740px;
 }
 
-/* 3d image thing */
-div#images{
-        height: 5000px;
-        z-index: 0;
-}
-div#images img{
-        min-height: 25%;
-        width: 45%;
-        position: fixed;
-        top:10%;
-        left: 48%;
-        z-index: 0;
-        background-color: white;
-      }
-
 .slidecontainer {
-  width: 55%; /* Width of the outside container */
+    width: 55%;
+    /* Width of the outside container */
     margin-left: auto;
     margin-right: auto;
 }
 
 .slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 5px;
-  border-radius: 5px;  
-  background: #b0b0b0;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: #b0b0b0;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
 }
 
 .slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%; 
-  background: #c9c9c9;
-  cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #c9c9c9;
+    cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: #c9c9c9;
-  cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #c9c9c9;
+    cursor: pointer;
 }
 
+/* FOR MEDIA QUERIES */
+@media only screen and (max-width: 1550px) {
+    #displacement {
+        margin-top: -120px;
+        height: 680px;
+        padding-left: 30px;
+    }
+
+    #mograph {
+        margin-top: -80px;
+    }
+}

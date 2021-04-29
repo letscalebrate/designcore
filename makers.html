@@ -3,14 +3,29 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="stylesheet" href="css/makersstyle.css">
 </head>
 <body>
-    <h1><a href="index.html">DESIGNCORE</a></h1>
+    <h1><a href="index.html">DESIGNCORE</a></h1><img src="assets/menu.png" id="menu" onclick="openNav()">
+    <span class="nav" id="makers"><a href="makers.html">ABOUT</a></span>
+    <span class="nav" id="resources"><a href="resources.html">LEARN</a>
+    </span>
     
-    <span class="nav" id="makers"><a href="makers.html">THE MAKERS</a></span>
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="makers.html">ABOUT</a>
+            <a href="resources.html">LEARN</a>
+        </div>
+    </div>
+    <script src="menuscript.js"></script>
     
-    <span class="nav inactive" id="resources"><a href="resources.html">RESOURCES</a></span>
+    <p id="intro">DesignCore provides an online, <span class="callout">exploratory space</span> to interact and play with the concepts and tools that designers use in the design industry.</p>
     
+    <p class="learn"><img src="assets/down-arrow.png" id="arrow"/></p>
+    
+    
+    
+    <div id="whole-container">
     <div id="makers-container">
         <div id="makers-top">
         <div class="maker">
@@ -47,7 +62,15 @@
         </div>
         </div>
     </div>
-    
+    <div id="about-container">
+    <h3>ABOUT THE TEAM</h3>
+        <p>We are a multidisciplinary team of six students at the Rochester Institute of Technology, looking to make design education more approachable.</p>
+
+        <p>As creatives ourselves, we’ve experienced the frustration and confusion that comes with trying to navigate the robust field of digital design.</p>
+
+        <p>We wanted to create an easier way to start a potential career path in design that promotes curiosity and excitement. </p>
+    </div>
+    </div>
     
 </body>
 </html>

@@ -5,47 +5,78 @@
     <link rel="stylesheet" href="../css/mainstyle.css">
     <link rel="stylesheet" href="../css/responsivedesign.css">
 </head>
-    <body><h1><a href="../index.html">DESIGNCORE</a></h1>
-    
-    <span class="nav" id="makers"><a href="../makers.html">THE MAKERS</a></span>
-    
-    <span class="nav" id="resources"><a href="resources.html">RESOURCES</a></span>
+    <body>
+    <h1><a href="../index.html">DESIGNCORE</a></h1>
+    <span class="nav" id="makers"><a href="../makers.html">ABOUT</a></span>
+    <span class="nav" id="resources"><a href="../resources.html">LEARN</a></span>
         
     <div id="interaction-container">
-        <p>DESKTOP</p>
+        <p id="device">DESKTOP</p>
+        <div id="container">
         <div id="outer-box">
         <div id="inner-box">
-            <div id="box1" class="boxes"></div>
-            <div id="box2" class="boxes"></div>
-            <div id="box3" class="boxes"></div>
-            <div id="box4" class="boxes"></div>
-            <div id="box5" class="boxes"></div>
-            <div id="box6" class="boxes"></div>
-            <div id="box7" class="boxes"></div>
-            <div id="box8" class="boxes"></div>
-            <div id="box9" class="boxes"></div>
+            <div id="box1" class="boxes" data-color="#FFDB3D"></div>
+            <div id="box2" class="boxes" data-color="#FFB42C"></div>
+            <div id="box3" class="boxes" data-color="#FE8D3C"></div>
+            <div id="box4" class="boxes" data-color="#FFAAAE"></div>
+            <div id="box5" class="boxes" data-color="#F83D53"></div>
+            <div id="box6" class="boxes" data-color="#CF2F46"></div>
+            <div id="box7" class="boxes" data-color="#A09EFF"></div>
+            <div id="box8" class="boxes" data-color="#362FCA"></div>
+            <div id="box9" class="boxes" data-color="#090254"></div>
+        </div>
         </div>
         </div>
         <div id="select">
             <div class="selection" id="desktop"></div>
             <div class="selection" id="tablet"></div>
-            <div class="selection" id="phone"></div>
+            <div class="selection" id="mobile"></div>
         </div>
     </div>
         
         <p class="learn">Learn More<br/><img src="../assets/down-arrow.png" id="arrow"/></p>
         
         <div id="main-container">
-        <h2>Color Palette</h2>
-        <p>Masking allows designers to hide or reveal certain parts of an image. Masks are used across all areas of digital design and content creation: to cut out and combine different elements of a graphic or video, build transitions, form unique shapes, create awesome visual effects, and more.</p>
+        <h2>Responsive Design</h2>
+        <p>UI/UX stands for User Interface and User Experience Design. These two areas of digital design are often grouped together but have profound differences. They share the same visual space when it comes to digital spaces, but the ways in which they interact with users are different.</p>
             <br/>
-        <p>The interaction above allows you to manipulate a mask path, using the four anchor points, to hide parts of the blue object in order to reveal the pink object underneath.</p>
+        <p>Wireframing and prototyping are two very common UX terms. They are both integral to the process of organizing the layout of a page for maximum efficiency. This interaction showcases a responsive wireframe. A wireframe is the skeleton of a digital design, and is a low fidelity technique to hash out bad ideas.  </p>
             <br/>
-        <p>Check out the resources below to learn how to apply fundamental masking techniques in Adobe After Effects, Photoshop, and Illustrator. </p>
+        <p>A big part of a product or website living online is the ability to be accessed from many different devices. Whether it’s an iPad or a Desktop computer, designs should be able to adapt to the size and orientation that is most optimal for viewing. This is what responsive design is. UI/UX designers usually start designs in a desktop format, and then create tablet and mobile versions that best format the content. </p>
+            
+            <h3>RESOURCES</h3>
+            <div class="resource-modal">
+                <a href="https://youtu.be/E0ruESAnQ7s" target="_blank">
+                <div class="resource-img" style="background-image: url('../thumbs/motion/masking1.jpg');"></div>
+                <div class="resource-text">
+                    <p class="title">A Guide to After Effects Masks</p>
+                    <p class="link">https://youtu.be/E0ruESAnQ7s</p>
+                </div>
+                </a>
+            </div>
+            <div class="resource-modal">
+                <a href="https://youtu.be/sbS5oUuGbGY" target="_blank">
+                <div class="resource-img" style="background-image: url('../thumbs/motion/masking2.jpg');"></div>
+                <div class="resource-text">
+                    <p class="title">How to Use Photoshop Layer Masks for Beginners</p>
+                    <p class="link">https://youtu.be/sbS5oUuGbGY</p>
+                </div>
+                </a>
+            </div>
+            <div class="resource-modal">
+                <a href="https://youtu.be/BpHtWOQlNoo" target="_blank">
+                <div class="resource-img" style="background-image: url('../thumbs/motion/masking3.jpg');"></div>
+                <div class="resource-text">
+                    <p class="title">Masking in Adobe Illustrator CC</p>
+                    <p class="link">https://youtu.be/BpHtWOQlNoo</p>
+                </div>
+                </a>
+            </div>
+            <p id="home"><a href="../index.html">Back to Home</a></p>
         </div>
         
-        <script src='../visual/js/tinycolor.js'></script>
-        <script src="../visual/js/palette.js"></script>
+        
+        <script src='../ux/js/responsive-design.js'></script>
         
 </body>
 </html>

@@ -25,9 +25,45 @@
 .texture-choices p {
     margin-top: -10px;
     text-align: center;
+    font-size: 18px;
 }
 
 .texture-choices:hover {
     background-color: #E5E5E5;
 }
 
+/* For smaller desktops */
+@media only screen and (max-width: 1550px) {
+    .texture-choices {
+        width: 150px;
+        height: 175px;
+    }
+    .texture-choices img {
+        width: 140px;
+    }
+    .texture-choices p {
+        font-size: 16px;
+        margin-top: -14px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    #interaction-container {
+    width: 1100px;
+}
+    #main-model {
+    width: 550px;
+    height: 550px;
+    float: left;
+}
+    .texture-choices {
+        width: 130px;
+        height: 160px;
+    }
+    .texture-choices img {
+        width: 115px;
+    }
+    .texture-choices p {
+        margin-top: -10px;
+    }
+}

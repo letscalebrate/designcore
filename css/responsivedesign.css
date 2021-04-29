@@ -9,7 +9,7 @@
     border: 5px solid #F27575;
     margin: auto;
     border-radius: 15px;
-    margin-bottom: 30px;
+    transition: 0.3s;
 }
 
 #inner-box {
@@ -21,6 +21,23 @@
     border-radius: 6px;
     padding-left: 15px;
     padding-top: 10px;
+    overflow-y: scroll;
+    transition: 0.3s;
+}
+
+#container {
+    height: 470px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#inner-box::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#inner-box {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .boxes {
@@ -30,6 +47,7 @@
     float: left;
     margin: 8px;
     border-radius: 15px;
+    transition: 0.3s;
 }
 
 #box1 {
@@ -100,8 +118,21 @@
     margin-top: 22px;
 }
 
-#phone {
+#mobile {
     width: 25px;
     height: 35px;
     margin-top: 25px;
+}
+
+/* Real responsive design - ha */
+@media only screen and (max-width: 1550px) {
+    #device {
+        margin-top: -40px;
+    }
+    #select {
+        margin-top: -20px;
+    }
+    .learn {
+        padding-top: 30px;
+    }
 }

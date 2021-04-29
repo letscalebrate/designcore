@@ -64,14 +64,34 @@
     width: 850px;
 }
 
-#quote-img {
-    float: left;
-    margin-right: 20px;
-}
-
 #quote-mark {
     font-size: 250px;
     float: left;
     margin-right: 50px;
     margin-top: -40px;
+}
+
+/* For smaller desktop sizes */
+@media only screen and (max-width: 1550px) {
+    #quote {
+        font-size: 44px;
+    }
+    #quote-mark {
+        font-size: 200px;
+        margin-top: -40px;
+        margin-left: 40px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    #quote {
+        font-size: 36px;
+        width: 700px;
+    }
+    #quote-mark {
+        font-size: 170px;
+        margin-top: -40px;
+        margin-left: 110px;
+    }
 }

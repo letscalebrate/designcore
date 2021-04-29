@@ -360,3 +360,47 @@
     margin-left: 165px;
     width: 20px;
 }
+
+
+
+
+/* FOR MEDIA QUERIES */
+@media only screen and (max-width: 1550px) {
+    /* visual style */
+#circle-base {
+    margin-top: 75px;
+}
+
+#circle-middle {
+    margin-top: 75px;
+}
+
+#sidebar {
+    margin-top: 0px;
+}
+
+.grad-options, .stroke-options {
+    margin-bottom: 20px;
+}
+
+#grads {
+    margin-bottom: 120px;
+}
+    /* user flows */
+    #dragdrop-p {
+        margin-top: -40px;
+    }
+    
+    #box8, #box4 {
+        margin-bottom: -10px;
+    }
+    
+    #arrow4 {
+        margin-top: -10px;
+    }
+    
+    .learn {
+        padding-top: 50px;
+    }
+    
+}
