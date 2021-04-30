@@ -243,6 +243,10 @@
     margin-bottom: 40%;
 }
     
+    #whole-container {
+        width: 360px;
+    }
+    
 #makers-container {
     width: 360px;
     margin-left: 1%;
@@ -288,6 +292,8 @@
     float: none;
     height: auto;
 }
+    
+    
     .overlay {
         height: 100%;
         width: 0;

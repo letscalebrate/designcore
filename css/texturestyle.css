@@ -70,40 +70,52 @@
 
 @media only screen and (max-width: 880px) {
     #interaction-container {
-    width: 800px;
-}
-    #main-model {
-    width: 700px;
-    height: 700px;
-    float: left;
-    margin-top: -200px;
-    margin-left: 40px;
-}
-    #metal, #glass, #green-tea, #carpaint, #vegetation {
-        margin-top: -75px;
+    width: 340px;
     }
     
+    #main-model {
+    width: 340px;
+    height: 340px;
+    float: left;
+    margin-top: -80px;
+    margin-left: 0px;
+    }
+    
+    #metal, #glass, #green-tea, #carpaint, #vegetation {
+        margin-top: 0px;
+    }
     
     .texture-choices {
-        width: 130px;
-        height: 160px;
-        margin-left: 15px;
-        margin-right: 15px;
-        
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     
     #concrete {
-        margin-left: 85px;
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+    
+    #wool, #wood, #marble {
+        margin-top: 0px;
     }
     
     .texture-choices img {
-        width: 115px;
+        width: 60px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .texture-choices p {
-        margin-top: -10px;
+        margin-top: -5px;
+        font-size: 12px;
     }
     
     .learn {
         padding-top: 70px;
     }
+}
+
+@media only screen and (max-width: 380px) {
+    
 }
