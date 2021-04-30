@@ -41,7 +41,7 @@ p.setup = function(){
     var positionInfo = element.getBoundingClientRect();
     var height = positionInfo.height;
     var width = positionInfo.width;
-    console.log(positionInfo.y);
+    // console.log(positionInfo.y);
     var canvas = p.createCanvas(width, height, p.WEBGL);
     canvas.parent('matterCanvas');
     // p.perspective(p.PI / 3.0, width / height, 0.5, 500);
