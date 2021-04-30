@@ -1,0 +1,41 @@
+#p5canvas{
+    width:600px;
+    height:600px;
+    margin:auto;
+}
+
+#buttonHolder{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-top:48px;
+    margin-bottom: 48px;
+}
+
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding: 8px;
+    /* background-color:yellow; */
+    width: 48px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.button:hover{
+    opacity: 60%;
+    background-color: lightgray;
+}
+
+.active{
+    background-color: rgba(55,55,55,0.2);
+}
