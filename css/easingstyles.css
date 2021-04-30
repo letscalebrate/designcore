@@ -1,0 +1,41 @@
+#interaction-container{
+  position:relative;
+  height:600px;
+}
+#constructor{
+  position: absolute;
+  /* left: 0vw; */
+  width:300px;
+  top:80px;
+}
+
+#box1{
+  /* background-color: #F83D53;  */
+  background: rgb(255,170,174);
+background: radial-gradient(circle, rgba(255,170,174,1) 0%, rgba(207,47,70,1) 85%);
+  width: 100px; 
+  height:100px; 
+  position:absolute; 
+  top:40px; 
+  left:200px;
+    transition: all 1s linear;
+    border-radius: 100px;
+}
+
+#box2{
+  /* background-color: #272197;  */
+  background: rgb(160,158,255);
+  background: radial-gradient(circle, rgba(160,158,255,1) 0%, rgba(39,33,151,1) 85%);
+  width: 100px; 
+  height:100px; 
+  position:absolute; 
+  top:200px; 
+  left:200px;
+  transition: all 1s linear;
+  border-radius: 100px;
+}
+
+#moving-containers{
+  position:absolute;
+  top: 48px;
+}
