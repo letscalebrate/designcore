@@ -209,7 +209,7 @@
 }
 
 @media only screen and (max-width: 380px) {
-    .overlay {
+    /*.overlay {
         height: 100%;
         width: 0;
         position: fixed;
@@ -234,7 +234,7 @@
         display: block;
         transition: 0.3s;
         margin-left: -43%;
-    }
+    }*/
     
     #intro {
     width: 330px;
