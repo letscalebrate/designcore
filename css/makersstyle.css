@@ -312,11 +312,11 @@
         color: #000000;
         display: block;
         transition: 0.3s;
-        margin-left: 35%;
+        margin-left: 33%;
         text-align: center;
     }
     
     #learn-nav {
-        padding-left: 13px;
+        padding-left: 12px;
     }
 }
