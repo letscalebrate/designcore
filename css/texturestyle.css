@@ -67,3 +67,43 @@
         margin-top: -10px;
     }
 }
+
+@media only screen and (max-width: 880px) {
+    #interaction-container {
+    width: 800px;
+}
+    #main-model {
+    width: 700px;
+    height: 700px;
+    float: left;
+    margin-top: -200px;
+    margin-left: 40px;
+}
+    #metal, #glass, #green-tea, #carpaint, #vegetation {
+        margin-top: -75px;
+    }
+    
+    
+    .texture-choices {
+        width: 130px;
+        height: 160px;
+        margin-left: 15px;
+        margin-right: 15px;
+        
+    }
+    
+    #concrete {
+        margin-left: 85px;
+    }
+    
+    .texture-choices img {
+        width: 115px;
+    }
+    .texture-choices p {
+        margin-top: -10px;
+    }
+    
+    .learn {
+        padding-top: 70px;
+    }
+}

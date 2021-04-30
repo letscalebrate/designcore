@@ -404,3 +404,22 @@
     }
     
 }
+
+
+@media only screen and (max-width: 880px) {
+    #interaction-container {
+        margin-top: 15%;
+    }
+    
+    #myNav {
+        z-index: 100;
+    }
+    
+    #dragdrop-p {
+        padding-top: 75%;
+    }
+    
+    .learn {
+        padding-top: 15%;
+    }
+}

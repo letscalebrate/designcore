@@ -48,42 +48,79 @@
     margin: 8px;
     border-radius: 15px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 #box1 {
     border-color: #FFDB3D;
 }
 
+#box1:hover {
+    background-color: #FFDB3D;
+}
+
 #box2 {
     border-color: #FFB42C;
+}
+
+#box2:hover {
+    background-color: #FFB42C;
 }
 
 #box3 {
     border-color: #FE8D3C;
 }
 
+#box3:hover {
+    background-color: #FE8D3C;
+}
+
 #box4 {
     border-color: #FFAAAE;
+}
+
+#box4:hover {
+    background-color: #FFAAAE;
 }
 
 #box5 {
     border-color: #F83D53;
 }
 
+#box5:hover {
+    background-color: #F83D53;
+}
+
 #box6 {
     border-color: #CF2F46;
+}
+
+#box6:hover {
+    background-color: #CF2F46;
 }
 
 #box7 {
     border-color: #A09EFF;
 }
 
+#box7:hover {
+    background-color: #A09EFF;
+}
+
 #box8 {
     border-color: #362FCA;
 }
 
+#box8:hover {
+    background-color: #362FCA;
+}
+
 #box9 {
     border-color: #090254;
+}
+
+#box9:hover {
+    background-color: #090254;
 }
 
 #interaction-container p {
@@ -110,18 +147,21 @@
     width: 75px;
     height: 50px;
     background-color: #F27575;
+    cursor: pointer;
 }
 
 #tablet {
     width: 35px;
     height: 45px;
     margin-top: 22px;
+    cursor: pointer;
 }
 
 #mobile {
     width: 25px;
     height: 35px;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 /* Real responsive design - ha */
@@ -134,5 +174,11 @@
     }
     .learn {
         padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    #device {
+        margin-top: 5%;
     }
 }

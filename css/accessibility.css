@@ -95,3 +95,74 @@
         margin-left: 110px;
     }
 }
+
+@media only screen and (max-width: 880px) {
+    
+    #interaction-container {
+    width: 880px;
+}
+
+#top-checks {
+    text-align: center;
+    margin-left: 15%;
+    width: 800px;
+    padding-bottom: 200px;
+}
+
+.each-check {
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#back-pick {
+    margin-left: 100px;
+}
+#text-pick {
+    margin-right: 150px;
+}
+
+.pickers {
+    float: left;
+    margin-left: 0px;
+    margin-right: 50px; 
+    margin-bottom: 100px;
+}
+
+.pickers img {
+    float: left;
+    padding-right: 20px;
+}
+
+.pickers p {
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    font-size: 26px;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    float: left;
+    margin-top: -10px;
+}
+
+#back-color, #text-color {
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+    #quote {
+        font-size: 36px;
+        width: 600px;
+    }
+    #quote-mark {
+        font-size: 170px;
+        margin-top: -40px;
+        margin-left: 60px;
+    }
+    
+    .learn {
+        margin-bottom: 18%;
+    }
+}

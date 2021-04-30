@@ -15,6 +15,8 @@
   margin: 1%;
   height: 330px;
   text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Clear floats after the columns */
@@ -40,8 +42,10 @@ h4 {
 
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .column {
     width: 100%;
+    margin-bottom: 30px;
+      
   }
 }

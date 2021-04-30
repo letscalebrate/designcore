@@ -34,6 +34,8 @@ body {
 h1 {
     font-size: 32px;
     letter-spacing: 20px;
+    font-family: 'Poppins-Regular';
+    font-weight: normal;
 }
 
 h1 a {
@@ -44,12 +46,14 @@ h1 a {
 h2 {
     font-size: 50px;
     font-family: 'Poppins-SemiBold';
+    font-weight: normal;
 }
 
 h3 {
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins-Medium';
     padding-top: 70px;
     font-size: 26px;
+    font-weight: normal;
 }
 
 #myNav {
@@ -225,6 +229,7 @@ p {
 
     #elements-container {
         width: 1100px;
+        margin-top: -20px;
     }
 
     #elements-container img {
@@ -318,6 +323,10 @@ p {
     body {
         margin: 30px;
     }
+    
+    #myNav {
+        z-index: 100;
+    }
 
     .nav {
         display: none;
@@ -357,7 +366,7 @@ p {
     }
 
     .element-row {
-        margin-left: 7%;
+        margin-left: 8%;
     }
 
     /* Clear floats after the columns */
@@ -408,18 +417,11 @@ p {
 
 
     /* INTERACTIONS */
-    #main-container {
-        width: 700px;
-        height: auto;
-        margin-top: 100px;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 10;
-    }
 
     .learn {
         color: #767272;
         text-align: center;
+        margin-bottom: 6%;
     }
 
     #arrow {
@@ -429,12 +431,140 @@ p {
     #interaction-container {
         height: 550px;
         width: 740px;
-        margin-top: 0px;
-        margin-bottom: 100px;
+        margin-top: 20%;
+        margin-bottom: 27%;
     }
 
     .interactions {
         height: 550px;
         width: 740px;
+    }
+    
+    #main-container {
+    width: 620px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+}
+
+@media only screen and (max-width: 800px) {
+    .element-row {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .element-row {
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .element-row {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    body {
+        margin: 20px;
+    }
+    
+    #myNav {
+        z-index: 100;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-family: 'Poppins-SemiBold';
+    }
+    
+    h3 {
+        font-size: 24px;
+        font-family: 'Poppins-Regular';
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #elements-container {
+        width: 360px;
+    }
+
+    #elements-container img {
+        width: 170px;
+        height: 170px;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    .element-column {
+        float: left;
+        width: 100%;
+        padding: 15px;
+        height: 150px;
+    }
+
+    .element-row {
+        margin-left: 0;
+    }
+
+    /* Clear floats after the columns */
+    .element-row:after {
+        content: "";
+        display: table;
+        clear: none;
+    }
+
+    #menu {
+        display: block;
+        position: absolute;
+        right: 5%;
+        margin-top: -30px;
+        cursor: pointer;
+        width: 10px;
+    }
+    
+    #myNav {
+    display: block;
+}
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        transition: 0.3s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 24px;
+        color: #000000;
+        display: block;
+        transition: 0.3s;
+        margin-left: -15%;
     }
 }

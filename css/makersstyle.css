@@ -32,6 +32,7 @@
 #makers-container {
     width: 700px;
     float: left;
+    margin-bottom: 100px;
 }
 
 #makers-top, #makers-bottom {
@@ -56,10 +57,11 @@
     font-size: 20px;
     font-family: 'Poppins-Medium';
     margin-top: 40px;
+    color: #000000;
 }
 
 .maker-role {
-    font-size: 18px;
+    font-size: 16px;
     color: #505050;
 }
 
@@ -67,6 +69,7 @@
     width: 410px;
     float: left;
     margin-left: 100px;
+    padding-top: 50px;
 }
 
 #about-container p {
@@ -102,7 +105,7 @@
     
 #makers-container {
     width: 1000px;
-    margin-left: 5%;
+    margin-left: 4%;
 }
 
 .maker {
@@ -203,4 +206,86 @@
         transition: 0.3s;
         margin-right: 420px;
     }
+}
+
+@media only screen and (max-width: 380px) {
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        transition: 0.3s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 8%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 24px;
+        color: #000000;
+        display: block;
+        transition: 0.3s;
+        margin-left: -43%;
+    }
+    
+    #intro {
+    width: 330px;
+    font-size: 20px;
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+    
+#makers-container {
+    width: 360px;
+    margin-left: 1%;
+}
+
+#makers-top, #makers-bottom {
+    float: none;
+    margin-left: 0px;
+}
+
+#makers-top {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+    
+.maker {
+    width: 140px;
+    text-align: center;
+    line-height: 12px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+    
+    .maker img {
+        width: 120px;
+    }
+
+.maker-name {
+    font-size: 16px;
+    font-family: 'Poppins-Medium';
+    margin-top: 40px;
+}
+
+.maker-role {
+    font-size: 12px;
+    color: #505050;
+}
+
+#about-container {
+    width: 340px;
+    margin-left: 0;
+    float: none;
+    height: auto;
+}
 }
