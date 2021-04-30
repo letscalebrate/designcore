@@ -45,4 +45,4 @@
       }
     }
 
-    setInterval(move, 3000); 
+    setInterval(move, 2000); 
