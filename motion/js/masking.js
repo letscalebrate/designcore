@@ -22,6 +22,10 @@ var canvas = document.getElementById('canvas'),
         canvas.addEventListener('mousedown', mouseDown, false);
         canvas.addEventListener('mouseup', mouseUp, false);
         canvas.addEventListener('mousemove', mouseMove, false);
+        
+        //canvas.addEventListener('touchstart', mouseDown, false);
+        //canvas.addEventListener('touchend', mouseUp, false);
+        //canvas.addEventListener('touchmove', mouseMove, false);
 
         rect = {
             startX: 110,
@@ -34,6 +38,7 @@ var canvas = document.getElementById('canvas'),
     function mouseDown(e) {
         mouseX = e.pageX - this.offsetLeft;
         mouseY = e.pageY - this.offsetTop;
+        //console.log("mouse down");
 
         // if there isn't a rect yet
         if (rect.w === undefined) {
@@ -68,6 +73,7 @@ var canvas = document.getElementById('canvas'),
         }
 
         ctx.clearRect(0, 0, canvas.width, canvas.height);
+        console.log(dragTL);
         draw();
 
     }

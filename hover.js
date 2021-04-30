@@ -3,8 +3,8 @@ console.log(hoverImages);
 
 $(document).ready(function(){
   $(hoverImages).hover(function(){
-      console.log($(this).data("static"));
-      console.log($(this).data("anim"));
+      //console.log($(this).data("static"));
+      //console.log($(this).data("anim"));
       let anim = $(this).data("anim");
       $(this).attr("src", anim);
     }, function(){

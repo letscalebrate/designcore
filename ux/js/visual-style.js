@@ -85,7 +85,8 @@ function changeStroke(e) {
     let newStroke2 = e.srcElement.dataset.thickness2;
     circlemiddle.style.borderWidth = newStroke1;
     circletop.style.borderWidth = newStroke2;
-    if(e.target.id="s-opt1") {
+    console.log(e.srcElement.id);
+    /*if(e.target.id="s-opt1") {
         e.target.style.boxShadow = "0 0 0 5px #DADADA";
         stroke2.style.boxShadow = "0 0 0 0px #DADADA";
         stroke3.style.boxShadow = "0 0 0 0px #DADADA";
@@ -95,13 +96,32 @@ function changeStroke(e) {
         stroke3.style.boxShadow = "0 0 0 0px #DADADA";
         stroke1.style.boxShadow = "0 0 0 0px #DADADA";
         console.log(e.target);*/
-        stroke2.style.border = "5px solid #dadada";
-    }
-    if(e.target.id="s-opt3") {
+        //e.target.style.boxShadow = "0 0 0 5px #DADADA";
+        //stroke3.style.boxShadow = "0 0 0 0px #DADADA";
+        //stroke1.style.boxShadow = "0 0 0 0px #DADADA";
+        //stroke2.style.border = "5px solid #dadada";
+    //}*/
+    /*if(e.target.id="s-opt3") {
         e.target.style.boxShadow = "0 0 0 5px #DADADA";
         stroke2.style.boxShadow = "0 0 0 0px #DADADA";
         stroke1.style.boxShadow = "0 0 0 0px #DADADA";
-        console.log(e.target.style.boxShadow);
+        //console.log(e.target.style.boxShadow);
     }
+    if(e.srcElement.id="s-opt1") {
+        stroke1.style.boxShadow = "0 0 0 5px #DADADA";
+        stroke2.style.boxShadow = "0 0 0 0px #DADADA";
+        stroke3.style.boxShadow = "0 0 0 0px #DADADA";
+    }
+    if(e.srcElement.id="s-opt2") {
+        stroke2.style.boxShadow = "0 0 0 5px #DADADA";
+        stroke1.style.boxShadow = "0 0 0 0px #DADADA";
+        stroke3.style.boxShadow = "0 0 0 0px #DADADA";
+    }
+    if(e.srcElement.id="s-opt3") {
+        stroke3.style.boxShadow = "0 0 0 5px #DADADA";
+        stroke1.style.boxShadow = "0 0 0 0px #DADADA";
+        stroke2.style.boxShadow = "0 0 0 0px #DADADA";
+    }*/
+    console.log("hello");
 }
 

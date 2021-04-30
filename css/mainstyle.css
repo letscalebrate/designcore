@@ -144,7 +144,7 @@ p {
 }
 
 .resource-modal {
-    width: 650px;
+    width 650px;
     height: 200px;
     border-radius: 12px;
     border: 1px solid #ACACAC;
@@ -156,6 +156,8 @@ p {
     background-color: green;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .resource-text {
@@ -172,12 +174,12 @@ p {
     font-family: 'Poppins-SemiBold';
     color: #000000;
     font-size: 18px;
-
 }
 
 .resource-text .link {
     font-size: 12px;
     color: #4B8AE0;
+    text-decoration: underline;
 }
 
 #home {
@@ -189,6 +191,8 @@ p {
     text-decoration: none;
     color: #767272;
 }
+
+
 
 /* MEDIA QUERIES */
 /* smaller desktop */
@@ -487,7 +491,7 @@ p {
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 34px;
         font-family: 'Poppins-SemiBold';
     }
     
@@ -537,6 +541,63 @@ p {
         width: 10px;
     }
     
+    #main-container {
+    width: 320px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+    .resource-modal {
+    width 320px;
+    height: 150px;
+    border-radius: 12px;
+    border: 1px solid #ACACAC;
+    margin-bottom: 30px;
+}
+
+.resource-img {
+    height: 80px;
+    background-color: green;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.resource-text {
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 12px;
+    padding-top: 0px;
+}
+
+.resource-modal a {
+    text-decoration: none;
+}
+
+.resource-text .title {
+    font-family: 'Poppins-SemiBold';
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+    margin-bottom: 0;
+}
+
+.resource-text .link {
+    font-size: 10px;
+    color: #4B8AE0;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+    margin-top: 4px;
+}
+    
     #myNav {
     display: block;
 }
@@ -567,4 +628,9 @@ p {
         transition: 0.3s;
         margin-left: -15%;
     }
+    
+    #home {
+    text-align: center;
+    padding-top: 40px;
+}
 }

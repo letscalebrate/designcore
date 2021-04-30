@@ -175,3 +175,58 @@ button {
     }
 
 }
+
+@media only screen and (max-width: 380px) {
+    #interaction-container {
+    width: 340px;
+        height: 500px;
+}
+    .palette {
+    margin-top: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.palette .color {
+    width: 60px;
+    height: 160px;
+    background-color: #eee;
+    border-radius: 80px;
+    cursor: pointer;
+}
+    .palette .color + .color {
+    margin-left: 9px;
+}
+
+.palette .color p {
+    text-align: center;
+    padding-top: 180px;
+    color: #737373;
+    font-size: 12px;
+}
+    
+    #opts {
+    float: left;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+#opts label {
+    font-size: 14px;
+    color: #6E7191;
+}
+
+#opts p {
+    line-height: 20px;
+}
+    .btn {
+    border-radius: 16px;
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    margin: 30px auto 0 auto;
+}
+    .learn {
+        padding-top: 0%;
+    }
+}
