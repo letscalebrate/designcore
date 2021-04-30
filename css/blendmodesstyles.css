@@ -1,13 +1,13 @@
-body{
+/* body{
     margin:0;
     width:100%;
     height:100%;
-}
+} */
 
-#interactionHolder{
+#interaction-container{
     position: relative;
     margin: auto;
-    max-width: 1024px;
+    max-width: 740px;
 }
 
 #matterCanvas{
@@ -19,7 +19,7 @@ body{
     /* position:relative; */
     z-index: -1;
     /* pointer-events: none; */
-    width: 1024px;
+    width: 740px;
     height: 572px;
     /* background-color:rgba(55,55,55,0.2); */
     /* border: 2px solid gray; */

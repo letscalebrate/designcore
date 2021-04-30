@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/mainstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/blendmodesstyles.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/blendmodesstyles.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/p5/lib/p5.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.15.0/matter.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.3/lottie.min.js"></script>
+    <script src="./js/blendModesCircle.js" type="text/javascript"></script>
+</head>
+    <body>
+    <h1><a href="../index.html">DESIGNCORE</a></h1><img src="../assets/menu.png" id="menu" onclick="openNav()">
+    <span class="nav" id="makers"><a href="../makers.html">ABOUT</a></span>
+    <span class="nav" id="resources"><a href="../resources.html">LEARN</a></span>
+        
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="../makers.html">ABOUT</a>
+            <a href="../resources.html">LEARN</a>
+        </div>
+    </div>
+    <script src="../menuscript.js"></script>
+        
+    <div id="interaction-container">
+        <div id="dropdownHolder">
+            <select id="blendDropdown" onChange="change_blend()">
+                <option class="dropdownContent" value=NORMAL>Normal</option>
+                <option class="dropdownContent" value=MULTIPLY>Multiply</option>
+                <option class="dropdownContent" value=SCREEN>Screen</option>
+                <option class="dropdownContent" value=DIFFERENCE>Difference</option>
+                <option class="dropdownContent" value=OVERLAY>Overlay</option>
+                <option class="dropdownContent" value=HUE>Hue</option>
+            </select>
+            </div>  
+                <div id="matterCanvas"></div>
+      <div id="htmlBlock" class="htmlBlock"></div>
+      <img id="bg-photo" src="../assets/visual/blendmodephoto.jpg">
+    </div>
+        
+        <p class="learn">Learn More<br/><img src="../assets/down-arrow.png" id="arrow"/></p>
+        
+        <div id="main-container">
+        <h2>Blend Modes</h2>
+        <p>Blending modes refers to how overlapping visuals will be blended together. Blend modes are used to manipulate and elevate photography and when experimented with can create interesting results.</p>
+            <br/>
+        <p>Software like Adobe Photoshop views a pixel’s colors as a number value. The blend mode names relate to how the color’s number will be blended. For example the mode “multiply” will take the color values from the overlapping layer and the base layer and then multiply the color values to generate the output. </p>
+            <br/>
+        <p>Experiment with blending modes in the interaction to see how colors will be blended together. Learn more about what you can do with blending modes and how each blend mode works using the resources below.</p>
+          <br/>
+            
+            <h3>RESOURCES</h3>
+            <div class="resource-modal">
+                <a href="https://photoshoptrainingchannel.com/blending-modes-explained/" target="_blank">
+                <div class="resource-img" style="background-image: url('../thumbs/visual/blendmodes1.jpg');"></div>
+                <div class="resource-text">
+                    <p class="title">Blending Modes Explained</p>
+                    <p class="link">https://photoshoptrainingchannel.com/blending-modes-explained/</p>
+                </div>
+                </a>
+            </div>
+            <div class="resource-modal">
+                <a href="https://helpx.adobe.com/photoshop/using/blending-modes.html" target="_blank">
+                <div class="resource-img" style="background-image: url('../thumbs/visual/blendingmodes2.png');"></div>
+                <div class="resource-text">
+                    <p class="title">Blending mode descriptions</p>
+                    <p class="link">https://helpx.adobe.com/photoshop/using/blending-modes.html</p>
+                </div>
+                </a>
+            </div>
+            <p id="home"><a href="../index.html">Back to Home</a></p>
+        </div>
+        
+        <script src="./js/blendmodes.js" type="text/javascript"></script>
+</body>
+</html>
