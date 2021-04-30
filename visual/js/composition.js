@@ -95,7 +95,7 @@ function thirds(){
 
 let img;
 function preload() {
-	img = loadImage('./fib-01.png');
+	img = loadImage('../assets/visual/fib-01.png');
 	}
 
 function fib(){

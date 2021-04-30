@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/mainstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/blendmodesstyles.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/blendmodesstyles.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/compositionstyles.css" type="text/css">
+</head>
+    <body>
+    <h1><a href="../index.html">DESIGNCORE</a></h1><img src="../assets/menu.png" id="menu" onclick="openNav()">
+    <span class="nav" id="makers"><a href="../makers.html">ABOUT</a></span>
+    <span class="nav" id="resources"><a href="../resources.html">LEARN</a></span>
+        
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="../makers.html">ABOUT</a>
+            <a href="../resources.html">LEARN</a>
+        </div>
+    </div>
+    <script src="../menuscript.js"></script>
+        
+    <div id="interaction-container">
+        <div id="buttonHolder">
+            <div id="fibButton" class="button">Golden Ratio</div>
+            <div id="thirdsButton" class="button active">Thirds</div>
+            </div>
+        <div id="p5canvas">
+        </div>
+    </div>
+        
+        <p class="learn">Learn More<br/><img src="../assets/down-arrow.png" id="arrow"/></p>
+        
+        <div id="main-container">
+        <h2>Composition</h2>
+        <p>Composition is the way your content is visually arranged. Composition is the base of design as it is the overall visual of your design. </p>
+            <br/>
+        <p>Designers can use aides in composition such as grids. Some popular grids are seen in the interaction above such as the rule of thirds and the golden ratio. These grids assist in spacing visual elements to create focal points in designs. </p>
+            <br/>
+        <p>Learn more about composition using the resources linked below.</p>
+          <br/>
+            
+            <h3>RESOURCES</h3>
+            <div class="resource-modal">
+                <a href="https://99designs.com/blog/tips/design-composition-and-layout/" target="_blank">
+                <div class="resource-img" style="background-image: url('../thumbs/visual/composition1.png');"></div>
+                <div class="resource-text">
+                    <p class="title">The 5 rules of design composition and layout</p>
+                    <p class="link">https://99designs.com/blog/tips/design-composition-and-layout/</p>
+                </div>
+                </a>
+            </div>
+            <div class="resource-modal">
+                <a href="https://edu.gcfglobal.org/en/beginning-graphic-design/layout-and-composition/1/" target="_blank">
+                <div class="resource-img" style="background-image: url('../thumbs/visual/alignment1.png');"></div>
+                <div class="resource-text">
+                    <p class="title">What is composition?</p>
+                    <p class="link">https://edu.gcfglobal.org/en/beginning-graphic-design/layout-and-composition/1/</p>
+                </div>
+                </a>
+            </div>
+            <p id="home"><a href="../index.html">Back to Home</a></p>
+        </div>
+        
+        <script src="./js/draggable.js" type="text/javascript"></script>
+    <script src="./js/composition.js" type="text/javascript"></script>
+</body>
+</html>
