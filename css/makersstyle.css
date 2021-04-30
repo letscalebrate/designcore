@@ -312,6 +312,7 @@
         color: #000000;
         display: block;
         transition: 0.3s;
-        margin-left: 15%;
+        margin-left: 25%;
+        text-align: center;
     }
 }
