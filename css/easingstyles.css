@@ -64,3 +64,56 @@ background: radial-gradient(circle, rgba(255,170,174,1) 0%, rgba(207,47,70,1) 85
     padding-top: -60px;
 }
 }
+
+@media only screen and (max-width: 1280px) {
+    #interaction-container{
+    margin-top: 200px;
+        height: 450px;
+}
+    .learn {
+    padding-top: -60px;
+}
+}
+
+@media only screen and (max-width: 420px) {
+    #interaction-container{
+    margin-top: 0px;
+        height: 450px;
+        margin-left: -50px;
+        width: 360px;
+}
+    .learn {
+    padding-top: -60px;
+}
+    #box1{
+  width: 100px; 
+  height:100px; 
+  position:absolute; 
+  top:80px; 
+  left:200px;
+    transition: all 0.5s linear;
+    border-radius: 100px;
+}
+
+#box2{
+  width: 100px; 
+  height:100px; 
+  position:absolute; 
+  top:240px; 
+  left:200px;
+  transition: all 0.5s linear;
+  border-radius: 100px;
+}
+}
+
+@media only screen and (max-width: 380px) {
+    #interaction-container{
+    margin-top: 0px;
+        height: 450px;
+        margin-left: -50px;
+        width: 360px;
+}
+    .learn {
+    padding-top: -60px;
+}
+}

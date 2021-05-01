@@ -3,35 +3,21 @@
     let box = document.getElementById("box1");
     let boxLinear = document.getElementById("box2");
     var direction = 0;
+let transformString;
 
-    // box.addEventListener("click", function(){  
-
-    //   switch(direction){
-    //     case 0:
-    //       // box.style.left = "400";
-    //       box.style.transform = "translateX(400px)";
-    //       console.log("move right");
-    //       direction = 1;
-    //     break;
-
-    //     case 1:
-    //       // box.style.left= "0";
-    //       box.style.transform = "translateX(0px)";
-    //       console.log("move left");
-    //       direction = 0;
-    //     break;
-    //   }
-    //   console.log(direction);
-
-    // })
+let screenRez = screen.width;
+if(screenRez>420) {
+    transformString = "translateX(90px)";
+}
+else {
+    transformString = "translateX(90px)";
+}
 
     function move(){
         switch(direction){
         case 0:
-          // box.style.left = "400";
-          box.style.transform = "translateX(400px)";
-          boxLinear.style.transform = "translateX(400px)";
-          // console.log("move right");
+          box.style.transform = transformString;
+          boxLinear.style.transform = transformString;
           direction = 1;
         break;
 

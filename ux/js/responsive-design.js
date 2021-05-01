@@ -28,7 +28,7 @@ function changeSize() {
     this.style.backgroundColor = "#ffffff";
     console.log("hello " + this.id);
     if(this.id=='desktop') {
-        if(screenRez>380) {
+        if(screenRez>420) {
             outer.style.width = "550px";
             outer.style.height = "420px";
             inner.style.width = "500px";
@@ -46,7 +46,7 @@ function changeSize() {
         device.textContent = "DESKTOP";
     }
     if(this.id=='tablet') {
-        if(screenRez>380) {
+        if(screenRez>420) {
             outer.style.width = "395px";
             outer.style.height = "420px";
             inner.style.width = "345px";
@@ -64,7 +64,7 @@ function changeSize() {
         device.textContent = "TABLET";
     }
     if(this.id=='mobile') {
-        if(screenRez>380) {
+        if(screenRez>420) {
             outer.style.width = "240px";
             outer.style.height = "360px";
             inner.style.width = "190px";
