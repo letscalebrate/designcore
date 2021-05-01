@@ -1,7 +1,6 @@
 #interaction-container{
   position:relative;
-  height:500px;
-    margin-top: 120px;
+  height:600px;
 }
 #constructor{
   position: absolute;
@@ -39,11 +38,7 @@ background: radial-gradient(circle, rgba(255,170,174,1) 0%, rgba(207,47,70,1) 85
 #moving-containers{
   position:absolute;
   top: 48px;
-}
-
-.learn {
-    padding-top: 100px;
-}
+} 
 
 @media only screen and (max-width: 1550px) {
     #interaction-container{

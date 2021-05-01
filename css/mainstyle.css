@@ -360,6 +360,8 @@ p {
     #elements-container img {
         width: 175px;
         height: 175px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 

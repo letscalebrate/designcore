@@ -90,10 +90,6 @@
     #intro {
     width: 1000px;
     font-size: 40px;
-    color: #000000;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
     margin-top: 14%;
     margin-bottom: 14%;
 }
@@ -112,7 +108,7 @@
     #intro {
     width: 800px;
     font-size: 30px;
-    margin-top: 23%;
+    margin-top: 22%;
     margin-bottom: 23%;
 }
     
