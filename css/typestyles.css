@@ -1,0 +1,21 @@
+#interaction-container{
+    height:400px;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#typed{
+    font-size: 8rem;
+    transition:all 0.2s ease-in-out;
+}
+
+#typed:hover{
+    color: darkgray;
+    cursor: pointer;
+}
+
+.typed-cursor{
+    font-size: 10rem;
+}
+
