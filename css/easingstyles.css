@@ -52,6 +52,15 @@ background: radial-gradient(circle, rgba(255,170,174,1) 0%, rgba(207,47,70,1) 85
 }
 }
 
+@media only screen and (max-width: 1450px) and (min-width: 1350px) {
+    #interaction-container {
+        margin-top: 0px;
+    }
+    .learn {
+        margin-top: -80px;
+    }
+}
+
 @media only screen and (max-width: 1280px) {
     #interaction-container{
     margin-top: 100px;

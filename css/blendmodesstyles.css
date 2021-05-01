@@ -84,6 +84,12 @@
     display: block;
 }
 
+@media only screen and (max-width: 1450px) and (min-width: 1350px) {
+    .learn {
+        margin-top: -10%;
+    }
+}
+
 @media only screen and (max-width: 880px) {
     #interaction-container {
         margin-top: 35%;

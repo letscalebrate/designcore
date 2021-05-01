@@ -32,6 +32,15 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 1450px) and (min-width: 1350px) {
+    #interaction-container {
+        margin-top: -100px;
+    }
+    .learn {
+        margin-top: -36px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     #interaction-container {
         margin-left: -185px;

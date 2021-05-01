@@ -89,6 +89,22 @@
     
 }
 
+@media only screen and (max-width: 1450px) and (min-width: 1350px) {
+    #interaction-container {
+        height: 500px;
+        margin-top: -50px;
+    }
+    #quote {
+        margin-top: -20px;
+    }
+    #quote-mark {
+        margin-top: -100px;
+    }
+    .learn {
+        padding-top: -60px;
+    }
+}
+
 @media only screen and (max-width: 1280px) {
     #quote {
         font-size: 36px;
@@ -176,6 +192,7 @@
     #interaction-container {
     width: 340px;
         height: 500px;
+        
 }
 
 #top-checks {

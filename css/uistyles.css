@@ -406,6 +406,26 @@
     
 }
 
+@media only screen and (max-width: 1450px) and (min-width: 1350px) {
+    #grads {
+    margin-bottom: 60px;
+}
+    #circle-base {
+    margin-top: 25px;
+}
+
+#circle-middle {
+    margin-top: 25px;
+}
+    
+    #interaction-container {
+        height: 700px;
+        margin-top: -50px;
+    }
+    #learn-visual {
+        margin-top: -280px;
+    }
+}
 
 @media only screen and (max-width: 880px) {
     #interaction-container {

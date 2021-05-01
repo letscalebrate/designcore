@@ -177,6 +177,12 @@
     }
 }
 
+@media only screen and (max-width: 1450px) and (min-width: 1350px) {
+    #interaction-container {
+        margin-top: -100px;
+    }
+}
+
 @media only screen and (max-width: 880px) {
     #device {
         margin-top: 5%;
