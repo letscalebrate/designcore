@@ -94,7 +94,10 @@
     #interaction-container {
         margin-top: 28%;
         margin-left: -182px;
-        height: 500px;
+        height: 450px;
+    }
+    .learn {
+        padding-top: 20%;
     }
 }
 
@@ -103,6 +106,9 @@
     #interaction-container {
         margin-top: 35%;
         margin-left: -202px;
-        height: 500px;
+        height: 430px;
+    }
+    .learn {
+        padding-top: 20%;
     }
 }
