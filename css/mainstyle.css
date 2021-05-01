@@ -240,12 +240,6 @@ p {
         width: 220px;
         height: 220px;
     }
-
-
-
-
-
-
     /* INTERACTIONS */
     #main-container {
         width: 700px;
@@ -279,6 +273,48 @@ p {
 }
 
 /*end of smaller desktop styles */
+
+@media only screen and (max-width: 1450px) {
+    body {
+        margin: 30px;
+    }
+
+    h1 {
+        font-size: 24px;
+        letter-spacing: 16px;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-family: 'Poppins-SemiBold';
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .nav a {
+        font-size: 18px;
+    }
+
+    #resources {
+        top: 310px;
+    }
+
+    #makers {
+        top: 310px;
+    }
+
+    #elements-container {
+        width: 875px;
+        margin-top: 20px;
+    }
+
+    #elements-container img {
+        width: 175px;
+        height: 175px;
+    }
+}
 
 /* smaller desktop */
 @media only screen and (max-width: 1280px) {

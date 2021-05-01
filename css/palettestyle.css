@@ -156,6 +156,18 @@ button {
     }
 }
 
+@media only screen and (max-width: 1450px) {
+    .palette {
+        margin-top: 80px;
+    }
+    #opts {
+        margin-top: 100px;
+    }
+    #interaction-container {
+        height: 420px;
+    }
+}
+
 @media only screen and (max-width: 880px) {
     #interaction-container {
     width: 800px;
