@@ -21,10 +21,12 @@ var typed = new Typed('#typed', {
     loop: true,
 
     preStringTyped: (arrayPos, self) => {
-        console.log(arrayPos);
-        console.log(self);
-        console.log(self.stringsElement.children[arrayPos].dataset.font);
+        // console.log(arrayPos);
+        // console.log(self);
+        // console.log(self.stringsElement.children[arrayPos].dataset.font);
         let fontID = self.stringsElement.children[arrayPos].dataset.font;
+        let fontLink = self.stringsElement.children[arrayPos].dataset.fontlink;
+        // console.log(self.stringsElement.children[arrayPos].dataset.fontlink);
         // let wordVal = self.strings[arrayPos].slice(1);
         // self.strings[arrayPos] = wordVal;
         // console.log(self.strings[arrayPos]);
@@ -32,6 +34,11 @@ var typed = new Typed('#typed', {
         // console.log(word);
 
         word.style.fontFamily = fontID;
+        
+        word.addEventListener("click", function(){
+            window.open(
+                fontLink, "_blank");
+        })
     },
   });
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/mainstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/typestyles.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/typestyles.css" type="text/css">
+
+</head>
+    <body>
+    <h1><a href="../index.html">DESIGNCORE</a></h1><img src="../assets/menu.png" id="menu" onclick="openNav()">
+    <span class="nav" id="makers"><a href="../makers.html">ABOUT</a></span>
+    <span class="nav" id="resources"><a href="../resources.html">LEARN</a></span>
+        
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="../makers.html">ABOUT</a>
+            <a href="../resources.html">LEARN</a>
+        </div>
+    </div>
+    <script src="../menuscript.js"></script>
+        
+    <div id="interaction-container">
+      <div id="typed-strings">
+        <p data-font="'Poppins', sans-serif" data-fontlink="https://fonts.google.com/specimen/Poppins">Sans Serif</p>
+        <p data-font="'EB Garamond', serif" data-fontlink="https://fonts.google.com/specimen/EB+Garamond">Serif</p>
+        <p data-font="'Courier New', Courier, monospace" data-fontlink="https://fonts.adobe.com/fonts/courier">Monospace</p>
+        <p data-font="'Reenie Beanie', sans-serif" data-fontlink="https://fonts.google.com/specimen/Reenie+Beanie">Hand Written</p>
+        <p data-font="'Abril Fatface', cursive" data-fontlink="https://fonts.google.com/specimen/Abril+Fatface">Display</p>
+      </div>
+      <span id="typed"></span>
+    </div>
+        
+        <p class="learn">Learn More<br/><img src="../assets/down-arrow.png" id="arrow"/></p>
+        
+        <div id="main-container">
+        <h2>Typography Fonts</h2>
+        <p>Typography is the visual representation of language and therefore a large part of visual communication in design. There are many nuances to typography that take years to learn and master. One of the most basic concepts of typography is choosing the right font family. </p>
+            <br/>
+        <p>This is similar to picking a font in Google Docs or Microsoft Word, but have you noticed the differences between the fonts? Fonts are generally categorized into 5 families. A sans serif font is a font without serifs, which are the visual accents on the end of type letters. In contrast serif fonts have serifs. Monospace fonts have the same width for each letter. Handwritten fonts are fonts designed to emulate handwriting. Lastly display fonts are generally fancier or more detailed to catch attention. </p>
+            <br/>
+        <p>Click on the fonts above to see what font they are. Learn more about typography using the resources below. </p>
+          <br/>
+            
+            <h3>RESOURCES</h3>
+            <div class="resource-modal">
+                <a href="https://medium.com/web-typography-news/learning-typography-introduction-resources-d992d1a82ea2" target="_blank">
+                <div class="resource-img" style="background-image: url('../thumbs/visual/type1.png');"></div>
+                <div class="resource-text">
+                    <p class="title">Learning Typography Introduction Resources</p>
+                    <p class="link">https://medium.com/web-typography-news/learning-typography-introduction-resources-d992d1a82ea2</p>
+                </div>
+                </a>
+            </div>
+            <div class="resource-modal">
+                <a href="https://www.youtube.com/watch?v=sByzHoiYFX0" target="_blank">
+                <div class="resource-img" style="background-image: url('../thumbs/visual/type2.png');"></div>
+                <div class="resource-text">
+                    <p class="title">Beginning Graphic Design: Typography</p>
+                    <p class="link">https://www.youtube.com/watch?v=sByzHoiYFX0</p>
+                </div>
+                </a>
+            </div>
+            <p id="home"><a href="../index.html">Back to Home</a></p>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="./js/typography.js" defer></script>
+</body>
+</html>
