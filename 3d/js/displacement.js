@@ -8,5 +8,5 @@ let slider = document.querySelector("#displacementRange");
 // Update the current slider value (each time you drag the slider handle)
 slider.oninput = function() {
   //console.log(this.value);
-    img.src = "../assets/3d/displacement-frames/dispalcement" + this.value + ".png";
+    img.src = "../assets/3d/displacement-frames/dispalcement_000" + this.value + ".jpg";
 }

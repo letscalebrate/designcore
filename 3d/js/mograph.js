@@ -11,14 +11,14 @@ function increaseSequence(){
     if(num<90) {
         num++;
     }
-    mograph.src = "../assets/3d/mograph-frames/second0" + num + ".png";
+    mograph.src = "../assets/3d/mograph-frames/second0" + num + ".jpg";
     setTimeout(increaseSequence, 20);
 }
 
 function decreaseSequence(){
     console.log(num);
     num--;
-    mograph.src = "../assets/3d/mograph-frames/second0" + num + ".png";
+    mograph.src = "../assets/3d/mograph-frames/second0" + num + ".jpg";
     setTimeout(decreaseSequence, 20);
 }
 
