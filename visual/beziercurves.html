@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/mainstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/blendmodesstyles.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="./js/pentool.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/beziercurvesstyles.css">
+</head>
+    <body>
+    <h1><a href="../index.html">DESIGNCORE</a></h1><img src="../assets/menu.png" id="menu" onclick="openNav()">
+    <span class="nav" id="makers"><a href="../makers.html">ABOUT</a></span>
+    <span class="nav" id="resources"><a href="../resources.html">LEARN</a></span>
+        
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="../makers.html">ABOUT</a>
+            <a href="../resources.html">LEARN</a>
+        </div>
+    </div>
+    <script src="../menuscript.js"></script>
+        
+    <div id="interaction-container">
+        <h3 id="instructions">Double click the shape to edit path </h3>
+        <canvas id="canvas1" width="0" height="0" tabindex="0" style="user-select: none; display:none;"></canvas>
+        <canvas id="canvas3" width="1080" height="600" tabindex="0" style="user-select: none;"></canvas>
+    
+    </div>
+        
+        <p class="learn">Learn More<br/><img src="../assets/down-arrow.png" id="arrow"/></p>
+        
+        <div id="main-container">
+        <h2>Bezier Curves</h2>
+        <p>In digital design, designers use bezier curves to create vectors that the computer can interpret to create 2d vector graphics. The curve was named bézier after french mathematician  Pierre Bézier who developed this method of computer drawing.  </p>
+            <br/>
+        <p>Bezier curves are made up of control points that define the vector. Designers use these points to manipulate the vector into shapes they want. Double click on the heart above to make the control points visible then try manipulating the control points. </p>
+            <br/>
+        <p>Learn more about mastering bezier curves and the pen tool using these resources.</p>
+          <br/>
+            
+            <h3>RESOURCES</h3>
+            <div class="resource-modal">
+                <a href="https://digitalsynopsis.com/design/adobe-illustrator-pen-tool-tips/" target="_blank">
+                <div class="resource-img" style="background-image: url('../thumbs/visual/bezier1.jpg');"></div>
+                <div class="resource-text">
+                    <p class="title">Adobe Illustrator ‘Pen Tool’ Cheat Sheet For Designers</p>
+                    <p class="link">https://digitalsynopsis.com/design/adobe-illustrator-pen-tool-tips/</p>
+                </div>
+                </a>
+            </div>
+            <div class="resource-modal">
+                <a href="https://helpx.adobe.com/illustrator/how-to/use-pen-tool.html" target="_blank">
+                <div class="resource-img" style="background-image: url('../thumbs/visual/bezier2.png');"></div>
+                <div class="resource-text">
+                    <p class="title">Start creating with the Pen tool</p>
+                    <p class="link">https://helpx.adobe.com/illustrator/how-to/use-pen-tool.html</p>
+                </div>
+                </a>
+            </div>
+            <p id="home"><a href="../index.html">Back to Home</a></p>
+        </div>
+        
+</body>
+</html>

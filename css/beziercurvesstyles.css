@@ -1,0 +1,12 @@
+canvas {
+    margin-left: -325px;
+    margin-top: -100px;
+    outline: none;
+}
+
+#instructions{
+    font-size: 20px;
+    color:darkgray;
+    font-weight: 400;
+    text-align: center;
+}
