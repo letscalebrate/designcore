@@ -472,6 +472,167 @@ p {
     }
 }
 
+@media only screen and (max-width: 420px) {
+    body {
+        margin: 20px;
+    }
+    
+    #myNav {
+        z-index: 100;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+
+    h2 {
+        font-size: 34px;
+        font-family: 'Poppins-SemiBold';
+    }
+    
+    h3 {
+        font-size: 24px;
+        font-family: 'Poppins-Regular';
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #elements-container {
+        width: 390px;
+    }
+
+    #elements-container img {
+        width: 185px;
+        height: 185px;
+    }
+
+    .element-column {
+        float: left;
+        width: 100%;
+        padding: 15px;
+        height: 150px;
+    }
+
+    .element-row {
+        margin-left: 0;
+    }
+
+    .element-row:after {
+        content: "";
+        display: table;
+        clear: none;
+    }
+
+    #menu {
+        display: block;
+        position: absolute;
+        right: 5%;
+        margin-top: -30px;
+        cursor: pointer;
+        width: 10px;
+    }
+    
+    #main-container {
+    width: 320px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+    .resource-modal {
+    width 320px;
+    height: 150px;
+    border-radius: 12px;
+    border: 1px solid #ACACAC;
+    margin-bottom: 30px;
+}
+
+.resource-img {
+    height: 80px;
+    background-color: green;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.resource-text {
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 12px;
+    padding-top: 0px;
+}
+
+.resource-modal a {
+    text-decoration: none;
+}
+
+.resource-text .title {
+    font-family: 'Poppins-SemiBold';
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+    margin-bottom: 0;
+}
+
+.resource-text .link {
+    font-size: 10px;
+    color: #4B8AE0;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+    margin-top: 4px;
+}
+    
+    #myNav {
+    display: block;
+}
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        transition: 0.3s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 24px;
+        color: #000000;
+        display: block;
+        transition: 0.3s;
+        margin-left: -12%;
+    }
+    
+    #home {
+    text-align: center;
+    padding-top: 40px;
+}
+}
+
 @media only screen and (max-width: 380px) {
     body {
         margin: 20px;
