@@ -162,7 +162,9 @@
 .stroke-options {
     border: 1px solid #8C8C8C;
     /*transition: 0.3s;*/
-    background-color: pink;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*
 .stroke-options hr {
