@@ -306,13 +306,15 @@ p {
     }
 
     #elements-container {
-        width: 875px;
+        width: 1200px;
         margin-top: 20px;
     }
 
     #elements-container img {
-        width: 175px;
-        height: 175px;
+        width: 185px;
+        height: 185px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
 
