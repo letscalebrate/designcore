@@ -208,6 +208,99 @@
     }
 }
 
+@media only screen and (max-width: 420px) {
+    
+    #intro {
+    width: 330px;
+    font-size: 20px;
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+    
+    #whole-container {
+        width: 360px;
+    }
+    
+#makers-container {
+    width: 360px;
+    margin-left: 6%;
+}
+
+#makers-top, #makers-bottom {
+    float: none;
+    margin-left: 0px;
+}
+
+#makers-top {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+    
+.maker {
+    width: 140px;
+    text-align: center;
+    line-height: 12px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+    
+    .maker img {
+        width: 120px;
+    }
+
+.maker-name {
+    font-size: 16px;
+    font-family: 'Poppins-Medium';
+    margin-top: 40px;
+}
+
+.maker-role {
+    font-size: 12px;
+    color: #505050;
+}
+
+#about-container {
+    width: 340px;
+    margin-left: 4%;
+    float: none;
+    height: auto;
+}
+    
+    
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        transition: 0.3s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 24px;
+        color: #000000;
+        display: block;
+        transition: 0.3s;
+        margin-left: 33%;
+        text-align: center;
+    }
+    
+    #learn-nav {
+        padding-left: 12px;
+    }
+}
+
 @media only screen and (max-width: 380px) {
     /*.overlay {
         height: 100%;
