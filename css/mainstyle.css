@@ -23,6 +23,10 @@ body {
     background-color: white;
 }
 
+#desktop-notice {
+    display: none;
+}
+
 #menu {
     display: none;
 }
@@ -124,6 +128,11 @@ p {
     color: #767272;
     text-align: center;
     z-index: 50;
+}
+
+.learn a {
+    color: #767272;
+    text-decoration: none;
 }
 
 #arrow {

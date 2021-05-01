@@ -11,6 +11,10 @@
   top:80px;
 }
 
+#desktop-notice {
+    display: none;
+}
+
 #box1{
   /* background-color: #F83D53;  */
   background: rgb(255,170,174);
@@ -100,6 +104,14 @@ background: radial-gradient(circle, rgba(255,170,174,1) 0%, rgba(207,47,70,1) 85
   transition: all 0.5s linear;
   border-radius: 100px;
 }
+    #desktop-notice {
+    display: block;
+        text-align: center;
+        margin-left: 110px;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #767272;
+}
 }
 
 @media only screen and (max-width: 380px) {
@@ -111,5 +123,13 @@ background: radial-gradient(circle, rgba(255,170,174,1) 0%, rgba(207,47,70,1) 85
 }
     .learn {
     padding-top: -60px;
+}
+    #desktop-notice {
+    display: block;
+        text-align: center;
+        margin-left: 93px;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #767272;
 }
 }

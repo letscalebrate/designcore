@@ -164,6 +164,10 @@
     cursor: pointer;
 }
 
+.learn {
+    padding-top: 60px;
+}
+
 /* Real responsive design - ha */
 @media only screen and (max-width: 1550px) {
     #device {
@@ -173,7 +177,7 @@
         margin-top: -20px;
     }
     .learn {
-        padding-top: 30px;
+        padding-top: 60px;
     }
 }
 

@@ -110,11 +110,33 @@
         margin-top: 50px;
         width: 340px;
     }
+    #desktop-notice {
+    display: block;
+        text-align: center;
+        margin-left: 15px;
+        margin-top: 0px;
+        font-size: 14px;
+        color: #767272;
+        margin-bottom: 40px;
+}
+    
 }
 
 @media only screen and (max-width: 380px) {
     #interaction-container {
         margin-top: 50px;
         width: 340px;
+    }
+    #desktop-notice {
+    display: block;
+        text-align: center;
+        margin-left: 15px;
+        margin-top: 0px;
+        font-size: 14px;
+        color: #767272;
+        margin-bottom: 40px;
+}
+    .learn {
+        padding-top: 100px;
     }
 }

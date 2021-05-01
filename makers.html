@@ -4,6 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/mainstyle.css">
     <link rel="stylesheet" href="css/makersstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
 </head>
 <body>
     <h1><a href="index.html">DESIGNCORE</a></h1><img src="assets/menu.png" id="menu" onclick="openNav()">
@@ -21,7 +37,7 @@
     
     <p id="intro">DesignCore provides an online, <span class="callout">exploratory space</span> to interact and play with the concepts and tools that designers use in the design industry.</p>
     
-    <p class="learn"><img src="assets/down-arrow.png" id="arrow"/></p>
+    <p class="learn"><a href="#whole-container"><img src="assets/down-arrow.png" id="arrow"/></a></p>
     
     
     

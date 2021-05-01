@@ -5,6 +5,22 @@
     <link rel="stylesheet" href="../css/mainstyle.css">
     <link rel="stylesheet" href="../css/palettestyle.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
 </head>
     <body>
     <h1><a href="../index.html">DESIGNCORE</a></h1><img src="../assets/menu.png" id="menu" onclick="openNav()">
@@ -43,7 +59,7 @@
       
     </div>
         
-        <p class="learn">Learn More<br/><img src="../assets/down-arrow.png" id="arrow"/></p>
+        <p class="learn"><a href="#main-container">Learn More<br/><img src="../assets/down-arrow.png" id="arrow"></a></p>
         
         <div id="main-container">
         <h2>Color Palette</h2>
