@@ -1,15 +1,14 @@
 #interaction-container{
     position: relative;
     max-width: 740px;
+    height: 700px;
 }
 
 #matterCanvas{
     pointer-events: auto;
     z-index: -1;
-    /* pointer-events: none; */
     width: 740px;
     height: 600px;
-    /* background-color:rgba(55,55,55,0.2); */
     border: 2px solid gray;
 }
 
@@ -48,7 +47,6 @@
     justify-content: center;
     width:100%;
     margin-bottom:32px;
-
 }
 
 .button{
@@ -57,7 +55,6 @@
     justify-content: center;
     font-size: 24px;
     padding: 8px;
-    /* background-color:yellow; */
     width: 48px;
     height: 48px;
     background-repeat: no-repeat;
@@ -96,4 +93,28 @@
 
 #centerButton{
     background-image: url("../assets/visual/bot.png");
+}
+
+.learn {
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 880px) {
+    #interaction-container {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #interaction-container {
+        margin-top: 50px;
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #interaction-container {
+        margin-top: 50px;
+        width: 340px;
+    }
 }

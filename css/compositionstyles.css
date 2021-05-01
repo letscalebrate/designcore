@@ -39,3 +39,28 @@
 .active{
     background-color: rgba(55,55,55,0.2);
 }
+
+.learn {
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 880px) {
+    #interaction-container {
+        margin-top: 18%;
+        margin-bottom: 18%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #interaction-container {
+        margin-top: 18%;
+        margin-bottom: 400px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #interaction-container {
+        margin-top: 18%;
+        margin-bottom: 400px;
+    }
+}

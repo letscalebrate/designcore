@@ -10,3 +10,29 @@ canvas {
     font-weight: 400;
     text-align: center;
 }
+
+#interaction-container {
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+
+@media only screen and (max-width: 1550px) {
+    #interaction-container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+}
+
+@media only screen and (max-width: 420px) {
+    #interaction-container {
+    margin-top: 2%;
+    margin-bottom: 35%;
+}
+}
+
+@media only screen and (max-width: 380px) {
+    #interaction-container {
+    margin-top: 2%;
+    margin-bottom: 45%;
+}
+}
