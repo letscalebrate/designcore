@@ -86,7 +86,7 @@
     margin-bottom: 140px;
 }
 
-@media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 1450px) and (min-width: 1350px) {
     #intro {
     width: 1000px;
     font-size: 40px;

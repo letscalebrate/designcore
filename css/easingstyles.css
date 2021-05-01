@@ -1,6 +1,8 @@
 #interaction-container{
   position:relative;
-  height:600px;
+  height:500px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 #constructor{
   position: absolute;
@@ -16,7 +18,7 @@ background: radial-gradient(circle, rgba(255,170,174,1) 0%, rgba(207,47,70,1) 85
   width: 100px; 
   height:100px; 
   position:absolute; 
-  top:40px; 
+  top:60px; 
   left:200px;
     transition: all 1s linear;
     border-radius: 100px;
@@ -29,7 +31,7 @@ background: radial-gradient(circle, rgba(255,170,174,1) 0%, rgba(207,47,70,1) 85
   width: 100px; 
   height:100px; 
   position:absolute; 
-  top:200px; 
+  top:240px; 
   left:200px;
   transition: all 1s linear;
   border-radius: 100px;
@@ -42,28 +44,18 @@ background: radial-gradient(circle, rgba(255,170,174,1) 0%, rgba(207,47,70,1) 85
 
 @media only screen and (max-width: 1550px) {
     #interaction-container{
-    margin-top: 60px;
+    margin-top: 100px;
         height: 380px;
 }
     .learn {
-    padding-top: -100px;
+    padding-top: 80px;
 }
 }
 
 @media only screen and (max-width: 1280px) {
     #interaction-container{
-    margin-top: 70px;
-        height: 450px;
-}
-    .learn {
-    padding-top: -60px;
-}
-}
-
-@media only screen and (max-width: 1280px) {
-    #interaction-container{
-    margin-top: 200px;
-        height: 450px;
+    margin-top: 100px;
+        height: 420px;
 }
     .learn {
     padding-top: -60px;
