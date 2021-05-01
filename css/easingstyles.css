@@ -1,6 +1,6 @@
 #interaction-container{
   position:relative;
-  height:600px;
+  height:500px;
 }
 #constructor{
   position: absolute;
@@ -38,4 +38,8 @@ background: radial-gradient(circle, rgba(255,170,174,1) 0%, rgba(207,47,70,1) 85
 #moving-containers{
   position:absolute;
   top: 48px;
+}
+
+.learn {
+    padding-top: -100px;
 }
